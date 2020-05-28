@@ -1,0 +1,18 @@
+title: Library Management System ASP.NET MVC
+description: >-
+  It is a Library Management System that is created by using ASP.NET framework
+  and C#
+template:
+  repo: library-management-system-asp.net-mvc-template
+  name: library-management-system-asp.net-mvc
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
